@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link href='style.css' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src = "javascript.js"></script>
+
+</head>
+<body>
+
+<form action="#" class="form" method="post">
+    <div class="form__field">
+        <input type="text" class="sc_name" placeholder="Имя" />
+    </div>
+    <div class="form__field">
+        <input type="email"  class="sc_email" placeholder="E-Mail в формате example@site.com" pattern ="^([a-z0-9_\.-])+@[a-z0-9-]+\.([a-z]{2,4}\.)?[a-z]{2,4}$" />
+    </div>
+    <div class="form__field">
+        <input type="tel" class="sc_phone" placeholder="Телефон в формате +38091234567" pattern="[\+]\d{11}" minlength="12" maxlength="12" />
+    </div>
+    <button class="sc_button" type="button">Отправить</button>
+</form>
+</body>
+</html>
